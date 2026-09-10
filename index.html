@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PairPerfection — Pre-loved, Perfectly Paired</title>
+<meta name="description" content="PairPerfection is an online thrift shop for hand-picked, one-of-one secondhand fashion. Browse the feed, DM to buy.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================
+  EDIT ME: search this file for "EDIT:" comments
+  to find the easiest places to drop in your own
+  copy, photos and links.
+============================================= -->
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-tag" aria-hidden="true"></span>
+      Pair<span>Perfection</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- EDIT: replace with your real Instagram URL everywhere it appears -->
+    <a class="btn btn-primary nav-cta" href="https://www.instagram.com/pairperfections" target="_blank" rel="noopener">Shop on Instagram</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMobile">Menu</button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="navMobile">
+  <a href="#shop">Shop</a>
+  <a href="#story">Story</a>
+  <a href="#how">How it works</a>
+  <a href="#contact">Contact</a>
+  <a href="https://www.instagram.com/pairperfections" target="_blank" rel="noopener">Shop on Instagram →</a>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="stamp">
+        <span class="stamp-ring">
+          <svg viewBox="0 0 100 100" aria-hidden="true"><path id="stampCircle" d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0"></path><text><textPath href="#stampCircle">ONE OF ONE · HAND-PICKED · SECONDHAND FIRST · </textPath></text></svg>
+        </span>
+        <span class="stamp-center">PP</span>
+      </p>
+
+      <h1>Every piece already<br>has a story. We just<br>find its next one.</h1>
+
+      <p class="lead">
+        PairPerfection is a small online thrift shop. We dig through racks
+        so you don't have to, keep only what's actually worth wearing, and
+        post the good stuff to Instagram first — no shop, no cart, just DMs.
+      </p>
+
+      <div class="hero-actions">
+        <a href="https://www.instagram.com/pairperfections" target="_blank" rel="noopener" class="btn btn-primary">Shop the current drop</a>
+        <a href="#how" class="btn btn-ghost">See how it works</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="tag-string"></div>
+      <div class="tag-clip"></div>
+      <div class="price-tag">
+        <span class="price-hole"></span>
+        <span class="price-eyebrow">PairPerfection</span>
+        <span class="price-amount">Pre-loved</span>
+        <span class="price-sub">condition checked · one only</span>
+      </div>
+      <div class="patch patch-1">soft cotton</div>
+      <div class="patch patch-2">true to size</div>
+    </div>
+  </div>
+</section>
+
+<div class="stitch" aria-hidden="true"></div>
+
+<!-- STORY -->
+<section id="story" class="story">
+  <div class="wrap story-inner">
+    <div class="story-copy">
+      <h2>Thrifted with intention, not just volume</h2>
+      <p>
+        We started PairPerfection because most secondhand shopping online is
+        a scroll of mystery bundles and blurry photos. We wanted the
+        opposite: a small, tightly-edited feed where every listing has real
+        photos, an honest condition note, and a price that makes sense.
+      </p>
+      <p>
+        <!-- EDIT: swap this paragraph for your real founding story / location -->
+        Every item is handled, checked and photographed by us before it goes
+        up — nothing is listed sight unseen. New drops go up on the feed
+        first, and once a piece sells, it's gone for good.
+      </p>
+
+      <div class="pillars">
+        <div class="pillar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="20" y1="20" x2="15.3" y2="15.3"/></svg>
+          <h3>Hand-picked</h3>
+          <p>We go through every rack ourselves — no drop-shipped bundles.</p>
+        </div>
+        <div class="pillar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12.5l5 5L20 6.5"/></svg>
+          <h3>Condition checked</h3>
+          <p>Stains, tears and wear are noted upfront, not left for you to find.</p>
+        </div>
+        <div class="pillar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z"/></svg>
+          <h3>One of one</h3>
+          <p>Everything is a single piece. If it's sold, it won't come back.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stitch stitch-dark" aria-hidden="true"></div>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How buying works</h2>
+      <p>No website checkout — everything happens over Instagram.</p>
+    </div>
+
+    <ol class="steps">
+      <li>
+        <span class="step-num">1</span>
+        <h3>Browse the feed &amp; highlights</h3>
+        <p>New pieces go up as posts, with price and size in the caption. Highlights hold anything still in stock.</p>
+      </li>
+      <li>
+        <span class="step-num">2</span>
+        <h3>DM the piece you want</h3>
+        <p>Send us the post — first DM holds it for 24 hours while we confirm details with you.</p>
+      </li>
+      <li>
+        <span class="step-num">3</span>
+        <h3>We confirm price &amp; delivery</h3>
+        <p>Shipping cost or local pickup / pop-up meetup, whichever works for you.</p>
+      </li>
+      <li>
+        <span class="step-num">4</span>
+        <h3>Pay &amp; it's yours</h3>
+        <p>Once payment's confirmed, we pack it up and it's on its way to you.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- SHOP / FEATURED -->
+<section id="shop" class="shop">
+  <div class="wrap">
+    <div class="section-head section-head-light">
+      <h2>This week's drop</h2>
+      <p>A preview of what's currently up on the feed — full listings &amp; prices on Instagram.</p>
+    </div>
+
+    <!-- EDIT: replace each .card-photo background + label with your real product photos -->
+    <div class="card-grid">
+      <article class="card">
+        <div class="card-photo card-photo-1"></div>
+        <div class="card-body">
+          <span class="card-tag">Denim</span>
+          <h3>Straight-leg jeans</h3>
+          <span class="card-price">DM for price</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo card-photo-2"></div>
+        <div class="card-body">
+          <span class="card-tag">Outerwear</span>
+          <h3>Cropped bomber jacket</h3>
+          <span class="card-price">DM for price</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo card-photo-3"></div>
+        <div class="card-body">
+          <span class="card-tag">Tops</span>
+          <h3>Graphic tee</h3>
+          <span class="card-price">DM for price</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo card-photo-4"></div>
+        <div class="card-body">
+          <span class="card-tag">Dresses</span>
+          <h3>Slip midi dress</h3>
+          <span class="card-price">DM for price</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo card-photo-5"></div>
+        <div class="card-body">
+          <span class="card-tag">Accessories</span>
+          <h3>Leather belt</h3>
+          <span class="card-price">DM for price</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo card-photo-6"></div>
+        <div class="card-body">
+          <span class="card-tag">Footwear</span>
+          <h3>Canvas sneakers</h3>
+          <span class="card-price">DM for price</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="shop-cta">
+      <a href="https://www.instagram.com/pairperfections" target="_blank" rel="noopener" class="btn btn-primary">See full drop on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<div class="stitch" aria-hidden="true"></div>
+
+<!-- WHY SECONDHAND -->
+<section class="why">
+  <div class="wrap why-inner">
+    <h2>Good for your wardrobe, good for the planet</h2>
+    <p>
+      Buying secondhand keeps a wearable piece of clothing out of a landfill
+      and out of the demand for another new one to be made. It's a small
+      swap, but it adds up — one worn-in jacket at a time.
+    </p>
+    <div class="why-grid">
+      <div>
+        <h4>Less waste</h4>
+        <p>Clothes that still have plenty of life left get worn again instead of thrown out.</p>
+      </div>
+      <div>
+        <h4>Better value</h4>
+        <p>Well-made pieces, often from brands you'd pay far more for new.</p>
+      </div>
+      <div>
+        <h4>Actually unique</h4>
+        <p>No two people ever end up in the exact same outfit off our feed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-main">
+      <h2>Let's pair you up</h2>
+      <p>Fastest way to reach us is a DM — we usually reply same day.</p>
+      <a href="https://www.instagram.com/pairperfections" target="_blank" rel="noopener" class="btn btn-primary">Message us on Instagram</a>
+    </div>
+
+    <div class="footer-meta">
+      <div class="footer-col">
+        <span class="footer-label">Find us</span>
+        <a href="https://www.instagram.com/pairperfections" target="_blank" rel="noopener">@pairperfections</a>
+        <!-- EDIT: add a city / pop-up location if you'd like one shown -->
+        <span class="footer-plain">Pop-up dates posted on the feed</span>
+      </div>
+      <div class="footer-col">
+        <span class="footer-label">Before you DM</span>
+        <span class="footer-plain">Have the post &amp; your size ready</span>
+        <span class="footer-plain">First DM holds an item for 24 hrs</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <span>© <span id="year"></span> PairPerfection. All pieces one of one.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
